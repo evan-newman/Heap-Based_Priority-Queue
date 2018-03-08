@@ -1,6 +1,6 @@
 # CS 261 Assigment 4
 
-Program implements a complete heap-based priority queue. File pq.c is given and my program was limited to just that file. Had to define `struct pq` and implement the following function:
+Program implements a complete heap-based priority queue. File pq.c is given and my program was limited to just that file. Had to define `struct pq` and implement the following functions:
 
   * `pq_create()` - allocates and initializes a heap-based priority queue
   * `pq_free()` - frees all memory allocated to a priority queue
