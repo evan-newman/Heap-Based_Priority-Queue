@@ -1,4 +1,4 @@
-# CS 261 Assigment 4
+# CS 261 Heap-Based Priority Queue
 
 Program impliments a complete heap-based priority queue. File pq.c is given and my program was limited to just that file. Had to define `struct pq` and implement the following function:
 
@@ -11,15 +11,14 @@ Program impliments a complete heap-based priority queue. File pq.c is given and 
   * `pq_remove_first()` - should remove the first element from a priority queue and return its value
 
 # Notes about my criteria:
-  * In the priority queue you implement, *lower* priority values should correspond to elements with *higher* priority.  In other words, the first element in the priority queue should be the one with the *lowest* priority value among all elements in the collection.  For example, your priority queue should return an element with priority value 0 before it returns one with priority value 10.
+  * In the priority queue, *lower* priority values should correspond to elements with *higher* priority.  In other words, the first element in the priority queue should be the one with the *lowest* priority value among all elements in the collection.  For example, the priority queue should return an element with priority value 0 before it returns one with priority value 10.
 
   * Your `pq_insert()` and `pq_remove_first()` functions should both be *O(log n)*, and your `pq_first()` and `pq_first_priority()` functions should both be *O(1)*.
 
   * Your priority queue should not have any memory leaks.
 
-  * In lecture, we discussed how you can implement a heap using an array.  In `dynarray.c` and `dynarray.h`, you are provided with a dynamic array implementation you can use to implement your heap, if you'd like.  In addition to this dynamic array implementation, you may implement any additional helper functions you need to make your priority queue work.
-
 # Testing
 The file `test` gives an example to work with in my program. I did not code this part, Rob Hess provided this.
 
+# Works Cited 
 Credit to Rob Hess for most of the README.md provided and testing function
