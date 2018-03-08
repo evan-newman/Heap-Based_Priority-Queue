@@ -10,12 +10,12 @@ Program implements a complete heap-based priority queue. File pq.c is given and 
   * `pq_first_priority()` - should return the *priority value* associated with the first element in a priority queue
   * `pq_remove_first()` - should remove the first element from a priority queue and return its value
 
-# Notes about my criteria:
+# Notes About Program:
   * In the priority queue, *lower* priority values should correspond to elements with *higher* priority.  In other words, the first element in the priority queue should be the one with the *lowest* priority value among all elements in the collection.  For example, the priority queue should return an element with priority value 0 before it returns one with priority value 10.
 
-  * Your `pq_insert()` and `pq_remove_first()` functions should both be *O(log n)*, and your `pq_first()` and `pq_first_priority()` functions should both be *O(1)*.
+  * `pq_insert()` and `pq_remove_first()` functions are both *O(log n)*, and `pq_first()` and `pq_first_priority()` functions both are *O(1)*.
 
-  * Your priority queue should not have any memory leaks.
+  * priority queue does not have any memory leaks.
 
 # Testing
 The file `test` gives an example to work with in my program. I did not code this part, Rob Hess provided this.
